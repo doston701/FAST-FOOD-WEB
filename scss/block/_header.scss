@@ -1,0 +1,28 @@
+.site-header {
+  padding: 20px;
+  background-color: yellow;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 100px;
+  height: 100px;
+}
+
+.header__title {
+  color: black;
+}
+
+.header__btn {
+  padding: 10px;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}

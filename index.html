@@ -8,17 +8,96 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <!-- main css  -->
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Document</title>
+    <title>Burger king</title>
   </head>
   <body>
     <!-- all wrapper  -->
     <div class="all-wrapper">
       <!-- site header  -->
-      <header class="site-header"></header>
+      <header class="site-header">
+        <div class="container">
+          <div class="header">
+            <a class="header__link" href="./index.html">
+              <img
+                class="header__logo"
+                src="./img/Burger_King_logo.png"
+                alt="burger king logo"
+              />
+            </a>
+            <button class="header__btn" type="button">BOOK</button>
+          </div>
+        </div>
+      </header>
       <!-- site main  -->
-      <main class="site-main"></main>
+      <main class="site-main">
+        <div class="container">
+          <div class="hero">
+            <div class="hero__orders">
+              <ul class="hero__list">
+                <!-- <li class="hero__item">
+                  <h2 class="hero__title">NAME:</h2>
+                  <h3 class="hero__subtitle">ID:</h3>
+                </li> -->
+              </ul>
+              <form class="hero__form">
+                <input
+                  class="hero__input"
+                  type="text"
+                  placeholder="username..."
+                />
+                <button type="submit" class="hero__btn">ADD</button>
+              </form>
+            </div>
+            <div class="hero__manu book">
+              <ul class="book__list">
+                <li class="book__item">
+                  <img class="book__img" src="./img/burger.webp" alt="burger" />
+                  <h2 class="book__title">Burger</h2>
+                  <h3 class="book__price">2$</h3>
+                </li>
+                <li class="book__item">
+                  <img class="book__img" src="./img/lavash.webp" alt="burger" />
+                  <h2 class="book__title">Lavash</h2>
+                  <h3 class="book__price">2$</h3>
+                </li>
+                <li class="book__item">
+                  <img class="book__img" src="./img/pitsa.webp" alt="burger" />
+                  <h2 class="book__title">Pizza</h2>
+                  <h3 class="book__price">2$</h3>
+                </li>
+                <li class="book__item">
+                  <img
+                    class="book__img"
+                    src="./img/sendvich.webp"
+                    alt="burger"
+                  />
+                  <h2 class="book__title">sendvich</h2>
+                  <h3 class="book__price">2$</h3>
+                </li>
+                <li class="book__item">
+                  <img class="book__img" src="./img/danar.webp" alt="burger" />
+                  <h2 class="book__title">Donar</h2>
+                  <h3 class="book__price">2$</h3>
+                </li>
+              </ul>
+              <div class="book__end">
+                <select class="book__select" name="select" id="98">
+                  <option class="book__option" value="All">
+                    Choose your food
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
     <!-- site footer  -->
-    <footer class="site-footer"></footer>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="order"></div>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,149 @@
+.hero {
+  display: flex;
+  align-items: center;
+}
+
+.hero__orders {
+  position: relative;
+  max-width: 400px;
+  height: 549px;
+  border: 5px solid red;
+  border-radius: 10px;
+}
+
+.hero__form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: red;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 362px;
+}
+
+.hero__input {
+  margin-bottom: 6px;
+  padding: 5px;
+  width: 360px;
+  border-radius: 10px;
+  border: none;
+}
+
+.hero__input-tel {
+  margin-bottom: 6px;
+  padding: 5px;
+  width: 360px;
+  border-radius: 10px;
+  border: none;
+}
+
+.hero__btn {
+  width: 360px;
+  padding: 5px;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero__list {
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.hero__item {
+  border: 2px solid green;
+  border-radius: 8px;
+}
+
+.hero__manu {
+  width: 910px;
+  height: 550px;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.book__list {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.book__item {
+  width: 150px;
+  padding: 10px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.book__item:not(:first-child) {
+  margin-left: 20px;
+}
+
+.book__item:nth-child(6) {
+  margin-left: 0;
+}
+
+.book__img {
+  border-radius: 10px;
+}
+
+.book__title {
+  margin-bottom: 10px;
+}
+
+.book__price {
+  margin-bottom: 5px;
+}
+
+.book__minus {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.book__count {
+  font-size: large;
+}
+
+.book__add {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.book__remove {
+  width: 70px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.book__select {
+  width: 250px;
+  margin-left: 20px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
+.btn__disabled {
+  opacity: 0.4;
+}
